@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main {
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: crimson;
+}
+.price_cont {
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.btn {
+    width: 100%;
+}
+.sumT {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 40px;
+}
+.hide {
+    display: none;
+}
+.dataT {
+    max-width: 250px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .mistake {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0px;
+
+} */
+/* .hidden {
+    display: none;
+} */
+.historyBTN {
+    width: 100%;
+}
+.historyResults {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+.peshka {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+@media (max-width: 380px){
+    .dataT {
+        max-width: 150px;
+        width: 100%;
+        position: absolute;
+        top: 5vh;
+        left: 30vw;
+    }
+    .sumT {
+        max-width: 100px;
+        width: 100%;
+        position: absolute;
+        top:20vh;
+        
+    }
+    .historyBTN {
+        max-width: 100px;
+        width: 100%;
+        position: absolute;
+        top:0;
+    }
+    .historyResults {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 88%;
+        height: 88%;
+        background-color: rgba(206, 186, 186, 0.5);
+    } 
+}
